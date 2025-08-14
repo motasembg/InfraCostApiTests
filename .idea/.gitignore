@@ -1,0 +1,11 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Environment-dependent path to Maven home directory
+/mavenHomeManager.xml
+
+yavshok-api-tests/.idea/misc.xml
+yavshok-api-tests/.idea/encodings.xml
+yavshok-api-tests/.idea/codeStyles/codeStyleConfig.xml
+yavshok-api-tests/.idea/codeStyles/Project.xml
+yavshok-api-tests/.idea/.gitignore
