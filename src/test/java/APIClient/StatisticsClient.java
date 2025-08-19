@@ -17,4 +17,11 @@ public class StatisticsClient extends BaseClient {
                 .when()
                 .get(restapi("/organizations/{org}/pie_chart_statistics/{period}"), orgId, period);
     }
+    public static Response justForTest(String token) {
+        return auth(token)
+                .when()
+                .get(restapi("/organizations"));
+    }
+
+
 }

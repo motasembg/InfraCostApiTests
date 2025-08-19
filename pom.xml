@@ -16,6 +16,12 @@
             <version>5.10.0</version>
             <scope>test</scope>
         </dependency>
+        <!-- Allure for TestNG (or use junit5 if you’re on JUnit) -->
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-testng</artifactId>
+            <version>2.25.0</version>
+        </dependency>
         <!-- REST Assured -->
         <dependency>
             <groupId>io.rest-assured</groupId>
